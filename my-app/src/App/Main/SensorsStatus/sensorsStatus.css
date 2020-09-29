@@ -1,0 +1,51 @@
+.sensors__status {
+    min-width: 345px;
+    max-height: 140px;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30px;
+}
+
+.sensors__status-numb {
+    font-size: 35px;
+    color: #232425;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.sensors__status-desc {
+    color: #979797;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+    position: relative;
+}
+
+.sensors__status-desc.up::after {
+    content: '';
+    position: absolute;
+    right: -25px;
+    bottom: 0px;
+    width: 1px;
+    height: 80px;
+    background-color: #D8D8D8;
+}
+
+
+.sensors__status-numb::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    border-radius: 50%;
+    top: 10px;
+    border: 7px solid #3D912E;
+}
+
+.sensors__status-numb.down::before {
+    border: 7px solid #D84D58;
+}

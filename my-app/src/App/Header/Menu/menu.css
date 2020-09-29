@@ -1,0 +1,28 @@
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
+}
+
+.menu__item {
+    padding: 30px 0px;
+}
+
+.menu__item+li {
+    margin-left: 30px;
+}
+
+.menu__link {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .5s;
+    font-weight: 500;
+    font-size: 16px;
+    color: #979797;
+    font-family: 'Roboto', sans-serif;
+}

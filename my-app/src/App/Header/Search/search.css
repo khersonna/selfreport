@@ -1,0 +1,36 @@
+.header__form {
+    position: relative;
+    max-width: 150px;
+}
+
+.search {
+    display: block;
+    outline: none;
+    max-width: 150px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 35px;
+    cursor: pointer;
+}
+
+.search::placeholder {
+    font-size: 14px;
+    color: #979797;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.search__img {
+    width: 27px;
+    height: 27px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: transparent;
+}

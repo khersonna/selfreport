@@ -1,0 +1,28 @@
+/* TABLE */
+.logs__table-line {
+    position: relative;
+}
+
+.logs__table-caption,
+.logs__table-cell {
+    padding: 10px 10px 10px 0px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    color: #232425;
+}
+
+.logs__table-line::after {
+    position: absolute;
+    left: 7%;
+    content: '';
+    width: 730px;
+    border-bottom: 1px solid #ABABAB;
+    ;
+}
+
+.logs__table-line.caption:after {
+    border-bottom: none;
+}
+
+/* end table */

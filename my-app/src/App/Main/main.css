@@ -1,0 +1,93 @@
+body {
+    background-color: #F2F2F2;
+}
+
+.sensors {
+    padding: 40px 0px;
+}
+
+.sensors__inner {
+    display: flex;
+    align-items: flex-end;
+}
+
+.headline {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 20px;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #232425;
+
+}
+
+.subtitle {
+    margin-top: 10px;
+    display: block;
+    color: #8C8C8C;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    max-height: 44px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    background-color: #3D912E;
+    padding: 11px;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: #246E17;
+}
+
+.box {
+    background-color: #fff;
+    box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+    border-radius: 3px;
+    padding-bottom: 10px;
+    min-width: 800px;
+}
+
+.sensors__box,
+.logs__box {
+    padding: 25px;
+}
+
+
+/* logs */
+.logs__form-sort {
+    display: flex;
+}
+
+/*  */
+
+/* logs start */
+.logs {
+    padding: 40px 0px;
+}
+
+.logs__top.headline {
+    max-width: 800px;
+}
+
+.logs__btn {
+    color: #056DED;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logs__inner {
+    display: flex;
+    justify-content: space-between;
+}
