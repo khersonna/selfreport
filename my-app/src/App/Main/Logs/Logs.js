@@ -1,8 +1,21 @@
 import React from 'react'
 
 import '../Logs/logs.css'
+import data from '../data.js';
 
 const Logs =() =>{
+    var alertLogs = data.alertLogs.map(log =>
+        (
+            <tr className="logs__table-line">
+                <td className="logs__table-cell" data-label="Sensor">{log.status}</td>
+                <td className="logs__table-cell" data-label="Sensor">{log.sensor_name}</td>
+                <td className="logs__table-cell" data-label="Data-time">{log.datetime}</td>
+                <td className="logs__table-cell" data-label="Description">{log.description}</td>
+                <td className="logs__table-cell" data-label="Duration">{log.logId}</td>
+            </tr>
+        )
+    );
+
     return(
     <div className="logs__box box">
         <div className="logs__box-top">
@@ -42,59 +55,10 @@ const Logs =() =>{
                 </tr>
             </thead>
             <tbody className="logs__table-body">
-                <tr className="logs__table-line">
-                    <td className="logs__table-cell" data-label="Sensor">Up</td>
-                    <td className="logs__table-cell" data-label="Sensor">Wiki</td>
-                    <td className="logs__table-cell" data-label="Data-time">18-09-2020 18:36:29</td>
-                    <td className="logs__table-cell" data-label="Description">Successful Response</td>
-                    <td className="logs__table-cell" data-label="Duration">118 hrs, 17 mins</td>
-                </tr>
-                <tr className="logs__table-line">
-                    <td className="logs__table-cell" data-label="Sensor">Down</td>
-                    <td className="logs__table-cell" data-label="Sensor">Wiki</td>
-                    <td className="logs__table-cell" data-label="Data-time">18-09-2020 18:36:29</td>
-                    <td className="logs__table-cell" data-label="Description">No Response</td>
-                    <td className="logs__table-cell" data-label="Duration">118 hrs, 17 mins</td>
-                </tr>
-                <tr className="logs__table-line">
-                    <td className="logs__table-cell" data-label="Sensor">Up</td>
-                    <td className="logs__table-cell" data-label="Sensor">Lanet</td>
-                    <td className="logs__table-cell" data-label="Data-time">18-09-2020 18:36:29</td>
-                    <td className="logs__table-cell" data-label="Description">Successful Response</td>
-                    <td className="logs__table-cell" data-label="Duration">118 hrs, 17 mins</td>
-                </tr>
-                <tr className="logs__table-line">
-                    <td className="logs__table-cell" data-label="Sensor">Up</td>
-                    <td className="logs__table-cell" data-label="Sensor">Dribble</td>
-                    <td className="logs__table-cell" data-label="Data-time">18-09-2020 18:36:29</td>
-                    <td className="logs__table-cell" data-label="Description">Successful Response</td>
-                    <td className="logs__table-cell" data-label="Duration">118 hrs, 17 mins</td>
-                </tr>
-                <tr className="logs__table-line">
-                    <td className="logs__table-cell" data-label="Sensor">Started</td>
-                    <td className="logs__table-cell" data-label="Sensor">Lanet</td>
-                    <td className="logs__table-cell" data-label="Data-time">18-09-2020 18:36:29</td>
-                    <td className="logs__table-cell" data-label="Description">Started</td>
-                    <td className="logs__table-cell" data-label="Duration">118 hrs, 17 mins</td>
-                </tr>
-                <tr className="logs__table-line">
-                    <td className="logs__table-cell" data-label="Sensor">Started</td>
-                    <td className="logs__table-cell" data-label="Sensor">Dribble</td>
-                    <td className="logs__table-cell" data-label="Data-time">18-09-2020 18:36:29</td>
-                    <td className="logs__table-cell" data-label="Description">Started</td>
-                    <td className="logs__table-cell" data-label="Duration">118 hrs, 17 mins</td>
-                </tr>
-                <tr className="logs__table-line">
-                    <td className="logs__table-cell" data-label="Sensor">Started</td>
-                    <td className="logs__table-cell" data-label="Sensor">Wiki</td>
-                    <td className="logs__table-cell" data-label="Data-time">18-09-2020 18:36:29</td>
-                    <td className="logs__table-cell" data-label="Description">Started</td>
-                    <td className="logs__table-cell" data-label="Duration">118 hrs, 17 mins</td>
-                </tr>
+            {alertLogs}
             </tbody>
         </table>
     </div>
-
     )
 }
 export default Logs
