@@ -1,5 +1,6 @@
 .logs__notification {
     min-width: 345px;
+    max-height: 400px;
     border-radius: 3px;
     background-color: #fff;
     box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);

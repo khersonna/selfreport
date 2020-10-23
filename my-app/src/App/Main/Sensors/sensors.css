@@ -7,6 +7,7 @@
 
 .sensors__item {
     display: flex;
+    justify-content: space-between;
     padding-bottom: 15px;
 }
 
@@ -26,13 +27,11 @@
     color: #232425;
 
 }
-
 .sensors__item-subtitle {
-    padding:0px 5px;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     color: #ABABAB;
-    padding-left: 10px;
+    padding:0px  10px;
 }
 
 .sensors__top-sort {
@@ -43,4 +42,34 @@
     max-width: 90px;
     max-height: 20px;
     fill: #979797;
+}
+
+
+.sensors__item-title{
+    width: 150px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sensors__timeline{
+min-width:400px;
+}
+
+
+.sensors__timeline-segment{
+    text-align: left;
+    width: 25px;
+    height: 9px; 
+    background:#4da74d;
+    border: 1px solid #3D912E;
+    display: inline-block;
+
+}
+.sensors__timeline-segment + .sensors__timeline-segment {
+    margin-left: -4px;
+}
+.sensors__timeline-segment.error-color{
+    background: #D84D58;
+    border: 1px solid #D84D58;
 }

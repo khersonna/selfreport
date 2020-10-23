@@ -10,15 +10,15 @@
     font-family: 'Roboto', sans-serif;
     text-align: left;
     color: #232425;
+    min-width: 100px;
 }
-
 .logs__table-line::after {
     position: absolute;
     left: 7%;
     content: '';
     width: 730px;
     border-bottom: 1px solid #ABABAB;
-    ;
+    
 }
 
 .logs__table-line.caption:after {

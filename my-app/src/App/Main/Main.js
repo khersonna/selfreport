@@ -8,9 +8,6 @@ import Logs from './Logs/Logs'
 import Notification from './Notification/Notification'
 
 
-
-
-
 const Main = () => {
     return (
         <div>

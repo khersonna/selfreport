@@ -118,85 +118,7 @@ const data = {
                 ]
             }
             ],
-            "logs": [{
-                "logId": "0",
-                "status": "started",
-                "description": "started",
-                "datetime": "1600683330"
-            },
-            {
-                "logId": "1",
-                "status": "up",
-                "description": "OK(200)",
-                "datetime": "1600683335"
-            },
-            {
-                "logId": "2",
-                "status": "up",
-                "description": "OK(200)",
-                "datetime": "1600683340"
-            },
-            {
-                "logId": "3",
-                "status": "up",
-                "description": "OK(200)",
-                "datetime": "1600683345"
-            },
-            {
-                "logId": "4",
-                "status": "down",
-                "description": "No Response(444)",
-                "datetime": "1600683350"
-            },
-            {
-                "logId": "5",
-                "status": "up",
-                "description": "OK(200)",
-                "datetime": "1600683355"
-            },
-            {
-                "logId": "6",
-                "status": "up",
-                "description": "OK(200)",
-                "datetime": "1600683360"
-            },
-            {
-                "logId": "7",
-                "status": "down",
-                "description": "No Response(444)",
-                "datetime": "1600683365"
-            },
-            {
-                "logId": "8",
-                "status": "down",
-                "description": "No Response(444)",
-                "datetime": "1600683370"
-            },
-            {
-                "logId": "9",
-                "status": "down",
-                "description": "No Response(444)",
-                "datetime": "1600683375"
-            },
-            {
-                "logId": "10",
-                "status": "up",
-                "description": "OK(200)",
-                "datetime": "1600683380"
-            },
-            {
-                "logId": "11",
-                "status": "up",
-                "description": "OK(200)",
-                "datetime": "1600683385"
-            },
-            {
-                "logId": "12",
-                "status": "up",
-                "description": "OK(200)",
-                "datetime": "1600683390"
-            }
-            ]
+
         },
         {
             "monitorType": "ping",
@@ -224,85 +146,7 @@ const data = {
                 ]
             }
             ],
-            "logs": [{
-                "logId": "0",
-                "status": "started",
-                "description": "started",
-                "datetime": "1600683330"
-            },
-            {
-                "logId": "1",
-                "status": "up",
-                "description": "OK(200)",
-                "datetime": "1600683335"
-            },
-            {
-                "logId": "2",
-                "status": "up",
-                "description": "OK(200)",
-                "datetime": "1600683340"
-            },
-            {
-                "logId": "3",
-                "status": "up",
-                "description": "OK(200)",
-                "datetime": "1600683345"
-            },
-            {
-                "logId": "4",
-                "status": "down",
-                "description": "No Response(444)",
-                "datetime": "1600683350"
-            },
-            {
-                "logId": "5",
-                "status": "up",
-                "description": "OK(200)",
-                "datetime": "1600683355"
-            },
-            {
-                "logId": "6",
-                "status": "up",
-                "description": "OK(200)",
-                "datetime": "1600683360"
-            },
-            {
-                "logId": "7",
-                "status": "up",
-                "description": "No Response(444)",
-                "datetime": "1600683365"
-            },
-            {
-                "logId": "8",
-                "status": "down",
-                "description": "No Response(444)",
-                "datetime": "1600683370"
-            },
-            {
-                "logId": "9",
-                "status": "down",
-                "description": "No Response(444)",
-                "datetime": "1600683375"
-            },
-            {
-                "logId": "10",
-                "status": "up",
-                "description": "OK(200)",
-                "datetime": "1600683380"
-            },
-            {
-                "logId": "11",
-                "status": "up",
-                "description": "OK(200)",
-                "datetime": "1600683385"
-            },
-            {
-                "logId": "12",
-                "status": "up",
-                "description": "OK(200)",
-                "datetime": "1600683390"
-            }
-            ]
+
         },
         {
             "monitorType": "HTTP(S)",
@@ -329,144 +173,228 @@ const data = {
                     "1238"
                 ]
             }
-            ],
-            "logs": [{
-                "logId": "0",
-                "status": "started",
-                "description": "started",
-                "datetime": "1600683330"
-            },
-            {
-                "logId": "1",
-                "status": "up",
-                "description": "OK(200)",
-                "datetime": "1600683335"
-            },
-            {
-                "logId": "2",
-                "status": "up",
-                "description": "OK(200)",
-                "datetime": "1600683340"
-            },
-            {
-                "logId": "3",
-                "status": "up",
-                "description": "OK(200)",
-                "datetime": "1600683345"
-            },
-            {
-                "logId": "4",
-                "status": "down",
-                "description": "No Response(444)",
-                "datetime": "1600683350"
-            },
-            {
-                "logId": "5",
-                "status": "up",
-                "description": "OK(200)",
-                "datetime": "1600683355"
-            },
-            {
-                "logId": "6",
-                "status": "up",
-                "description": "OK(200)",
-                "datetime": "1600683360"
-            },
-            {
-                "logId": "7",
-                "status": "down",
-                "description": "No Response(444)",
-                "datetime": "1600683365"
-            },
-            {
-                "logId": "8",
-                "status": "down",
-                "description": "No Response(444)",
-                "datetime": "1600683370"
-            },
-            {
-                "logId": "9",
-                "status": "down",
-                "description": "No Response(444)",
-                "datetime": "1600683375"
-            },
-            {
-                "logId": "10",
-                "status": "up",
-                "description": "OK(200)",
-                "datetime": "1600683380"
-            },
-            {
-                "logId": "11",
-                "status": "up",
-                "description": "OK(200)",
-                "datetime": "1600683385"
-            },
-            {
-                "logId": "12",
-                "status": "up",
-                "description": "OK(200)",
-                "datetime": "1600683390"
-            }
             ]
+
         }
     ],
-    "alertLogs": [
+    "logs": [{
+        "monitorID": "001",
+        "friendlyName": "dribble",
+        "logId": "0",
+        "status": "start",
+        "description": "started",
+        "datetime": "1600683330"
+    },
     {
-        "logId": "12",
+        "monitorID": "001",
+        "friendlyName": "dribble",
+        "logId": "1",
         "status": "up",
         "description": "OK(200)",
-        "datetime": "1600683390"
+        "datetime": "1600683335"
     },
     {
-        "monitorId": "001",
+        "monitorID": "001",
+        "friendlyName": "dribble",
+        "logId": "2",
+        "status": "down",
+        "description": "No Response(444)",
+        "datetime": "1600683340"
+    },
+    {
+        "monitorID": "001",
+        "friendlyName": "dribble",
+        "logId": "3",
+        "status": "up",
+        "description": "OK(200)",
+        "datetime": "1600683345"
+    },
+    {
+        "monitorID": "001",
+        "friendlyName": "dribble",
         "logId": "4",
-        "contactId": [
-            "1233",
-            "1236",
-            "1238"
-        ]
+        "status": "up",
+        "description": "OK(200)",
+        "datetime": "1600683350"
     },
     {
-        "monitorId": "001",
+        "monitorID": "001",
+        "friendlyName": "dribble",
         "logId": "5",
-        "contactId": [
-            "1233",
-            "1236"
-        ]
+        "status": "down",
+        "description": "No Response(444)",
+        "datetime": "1600683355"
     },
     {
-        "monitorId": "002",
-        "logId": "8",
-        "contactId": [
-            "1233",
-            "1236",
-            "1238"
-        ]
-    }, {
-        "monitorId": "002",
-        "logId": "10",
-        "contactId": [
-            "1233",
-            "1236"
-        ]
-    }, {
-        "monitorId": "003",
-        "logId": "7",
-        "contactId": [
-            "1233",
-            "1236",
-            "1238"
-        ]
-    }, {
-        "monitorId": "003",
-        "logId": "10",
-        "contactId": [
-            "1233",
-            "1236"
-        ]
-    }
+        "monitorID": "001",
+        "friendlyName": "dribble",
+        "logId": "6",
+        "status": "up",
+        "description": "OK(200)",
+        "datetime": "1600683360"
+    },
+    {
+        "monitorID": "002",
+        "friendlyName": "Lanet",
+        "logId": "0",
+        "status": "start",
+        "description": "started",
+        "datetime": "1600683330"
+    },
+    {
+        "monitorID": "002",
+        "friendlyName": "Lanet",
+        "logId": "1",
+        "status": "up",
+        "description": "OK(200)",
+        "datetime": "1600683335"
+    },
+    {
+        "monitorID": "002",
+        "friendlyName": "Lanet",
+        "logId": "2",
+        "status": "up",
+        "description": "OK(200)",
+        "datetime": "1600683340"
+    },
+    {
+        "monitorID": "002",
+        "friendlyName": "Lanet",
+        "logId": "3",
+        "status": "down",
+        "description": "No Response(444)",
+        "datetime": "1600683345"
+    },
+    {
+        "monitorID": "002",
+        "friendlyName": "Lanet",
+        "logId": "4",
+        "status": "up",
+        "description": "OK(200)",
+        "datetime": "1600683350"
+    },
+    {
+        "monitorID": "002",
+        "friendlyName": "Lanet",
+        "logId": "5",
+        "status": "up",
+        "description": "OK(200)",
+        "datetime": "1600683355"
+    },
+    {
+        "monitorID": "002",
+        "friendlyName": "Lanet",
+        "logId": "6",
+        "status": "up",
+        "description": "OK(200)",
+        "datetime": "1600683360"
+    },
+    {
+        "monitorID": "003",
+        "friendlyName": "Wiki",
+        "logId": "0",
+        "status": "start",
+        "description": "started",
+        "datetime": "1600683330"
+    },
+    {
+        "monitorID": "003",
+        "friendlyName": "Wiki",
+        "logId": "1",
+        "status": "up",
+        "description": "OK(200)",
+        "datetime": "1600683335"
+    },
+    {
+        "monitorID": "003",
+        "friendlyName": "Wiki",
+        "logId": "2",
+        "status": "down",
+        "description": "No Response(444)",
+        "datetime": "1600683340"
+    },
+    {
+        "monitorID": "003",
+        "friendlyName": "Wiki",
+        "logId": "3",
+        "status": "up",
+        "description": "OK(200)",
+        "datetime": "1600683345"
+    },
+    {
+        "monitorID": "003",
+        "friendlyName": "Wiki",
+        "logId": "4",
+        "status": "down",
+        "description": "No Response(444)",
+        "datetime": "1600683350"
+    },
+    {
+        "monitorID": "003",
+        "friendlyName": "Wiki",
+        "logId": "5",
+        "status": "up",
+        "description": "OK(200)",
+        "datetime": "1600683355"
+    },
+    {
+        "monitorID": "003",
+        "friendlyName": "Wiki",
+        "logId": "6",
+        "status": "up",
+        "description": "OK(200)",
+        "datetime": "1600683360"
+    },
+    ],
+    "alertLogs": [
+        {
+            "monitorId": "001",
+            "logId": "4",
+            "contactId": [
+                "1233",
+                "1236",
+                "1238"
+            ]
+        },
+        {
+            "monitorId": "001",
+            "logId": "5",
+            "contactId": [
+                "1233",
+                "1236"
+            ]
+        },
+        {
+            "monitorId": "002",
+            "logId": "8",
+            "contactId": [
+                "1233",
+                "1236",
+                "1238"
+            ]
+        }, {
+            "monitorId": "002",
+            "logId": "10",
+            "contactId": [
+                "1233",
+                "1236"
+            ]
+        }, {
+            "monitorId": "003",
+            "logId": "7",
+            "contactId": [
+                "1233",
+                "1236",
+                "1238"
+            ]
+        }, {
+            "monitorId": "003",
+            "logId": "11",
+            "contactId": [
+                "1233",
+                "1236"
+            ]
+        }
     ]
-
 }
 export default data;

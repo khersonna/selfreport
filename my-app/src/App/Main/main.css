@@ -8,7 +8,7 @@ body {
 
 .sensors__inner {
     display: flex;
-    align-items: flex-end;
+    /* position: relative; */
 }
 
 .headline {
@@ -82,6 +82,7 @@ body {
 }
 
 .logs__btn {
+    cursor: pointer;
     color: #056DED;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
